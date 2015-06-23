@@ -12,5 +12,5 @@ Copier/Coller
 ## Custom
 Pour changer le message 
 ```javascript
-		var forstingFlavor = "En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies conformément à notre politique de données personnelles.";
+	var forstingFlavor = "En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies conformément à notre politique de données personnelles.";
 ```
