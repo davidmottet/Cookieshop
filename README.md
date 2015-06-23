@@ -7,10 +7,10 @@ Le script est autonome, il fonctionne avec un pur javascript naturel. Avec seule
 ## Instalation
 Copier/Coller 
 ```javascript
-	<script type="text/javascript" src="cookieShop.js" async></script>
+<script type="text/javascript" src="cookieShop.js" async></script>
 ```
 ## Custom
 Pour changer le message 
 ```javascript
-	var forstingFlavor = "En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies conformément à notre politique de données personnelles.";
+var forstingFlavor = "En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies conformément à notre politique de données personnelles.";
 ```
