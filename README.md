@@ -14,7 +14,7 @@ Copier/Coller
 ```javascript
 var forstingFlavor = "En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies conformément à notre politique de données personnelles.";
 ```
-###Style
+###Styles
 ```javascript
 //bar
 var ingerdient = "background: #161616; position: fixed; width: 100%; color: #ffffff; font-family: Helvetica, Arial, sans-serif; z-index: 1510; font-size: 12px; cursor: pointer; margin: 0 auto; height: 30px; line-height: 30px; text-align: center; top: 0; left: 0; right: 0;";
