@@ -69,8 +69,8 @@
 		cookie.appendChild(chipBlack);
 		table[0].appendChild(cookie);
 
-		oven.addEventListener("click", function () {
-			table[0].removeChild(oven);
+		cookie.addEventListener("click", function () {
+			table[0].removeChild(cookie);
 			cookCookie(flavor,true,390);
 		});
 	};
