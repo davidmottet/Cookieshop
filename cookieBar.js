@@ -52,7 +52,6 @@
 	},
 
 	showCookies = function () {
-
 		var oven = document.createElement("div");
 		oven.id = "cookies";
 		oven.style.cssText = ingerdient;
@@ -66,20 +65,16 @@
 		var chipWhite = document.createElement("span");
 		chipWhite.style.cssText = chip_bottel+spreadWhite;
 
-
 		var table = document.getElementsByTagName("body");
 		chipBlack.appendChild(chipWhite);
 		cookie.appendChild(chipBlack);
 		oven.appendChild(cookie);
 		table[0].appendChild(oven);
 
-		
-
 		oven.addEventListener("click", function () {
 			table[0].removeChild(oven);
 			cookCookie(flavor,true,390);
 		});
-
 	};
 
 	cookieShop.init = init;
@@ -87,3 +82,5 @@
 	window.cookieShop = cookieShop;
 	return cookieShop;
 })(this);
+
+window.cookieShop.init();
