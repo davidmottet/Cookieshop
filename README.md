@@ -7,7 +7,7 @@ Le script est autonome, il fonctionne avec un pur javascript naturel. Avec seule
 ## Instalation
 Copier/Coller 
 ```javascript
-<script type="text/javascript" src="cookieShop.js" async></script>
+<script type="text/javascript" src="cookieBar.js" async defer onload="window.cookieShop.init();"></script>
 ```
 ## Custom
 ###Message
